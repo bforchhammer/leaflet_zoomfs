@@ -1,0 +1,7 @@
+name: Leaflet zoomfs Plugin
+type: module
+description: Makes the leaflet.zoomfs plugin available.
+core: 8.x
+package: Leaflet
+dependencies:
+  - leaflet

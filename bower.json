@@ -1,0 +1,6 @@
+{
+  "name": "leaflet_zoomfs",
+  "dependencies": {
+    "leaflet.zoomfs": "https://github.com/elidupuis/leaflet.zoomfs.git#master"
+  }
+}

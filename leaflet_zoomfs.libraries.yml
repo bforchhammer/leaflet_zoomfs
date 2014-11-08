@@ -1,0 +1,21 @@
+zoomfs:
+  remote: https://github.com/elidupuis/leaflet.zoomfs
+  version: master
+  license:
+    name: Don't be a dick.
+    url: http://www.dbad-license.org/
+    gpl-compatible: true
+  js:
+    /libraries/leaflet.zoomfs/leaflet.zoomfs.js: {}
+  dependencies:
+    - leaflet/leaflet
+
+drupal:
+  version: VERSION
+  js:
+    assets/script.js: {}
+  css:
+    theme:
+      assets/style.css: {}
+  dependencies:
+    - leaflet_zoomfs/zoomfs
