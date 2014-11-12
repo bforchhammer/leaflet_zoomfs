@@ -17,6 +17,6 @@ function leaflet_zoomfs_leaflet_map_info_alter(&$maps) {
  */
 function leaflet_zoomfs_preprocess_leaflet_map(&$variables) {
   if (isset($variables['map']['plugins']['zoomfs'])) {
-    $variables['#attached']['library'][] = 'leaflet_zoomfs/drupal';
+    $variables['#attached']['library'][] = 'leaflet_zoomfs/wrapper';
   }
 }

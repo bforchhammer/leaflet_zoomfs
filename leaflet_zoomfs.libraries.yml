@@ -10,12 +10,12 @@ zoomfs:
   dependencies:
     - leaflet/leaflet
 
-drupal:
+wrapper:
   version: VERSION
   js:
     assets/script.js: {}
   css:
     theme:
-      assets/style.css: {}
+      assets/zoomfs.css: {}
   dependencies:
     - leaflet_zoomfs/zoomfs
